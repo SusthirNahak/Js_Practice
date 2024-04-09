@@ -6,7 +6,7 @@
  ->reassign value is not possible in case of const, but it is possible in the case of let.
  */
 // let a;
-/*a=78;
+a=78;
 console.log(a);
 //const a; it will create an error
 
@@ -15,21 +15,7 @@ abc=10
 
 const abcd=7
 abcd=8
-console.log(abcd);*/
+console.log(abcd);
 
 
-function add(){
-    console.log(a);
-}
-add()
-var a=5
-function del(){
-    console.log(a);
-}
-del()
 
-let f;
-f=6;
-console.log(f);
-const g=76;
-console.log(g);

@@ -14,7 +14,25 @@ let output1=name1.substring(3,9)
 console.log(output1);
 
 
-//2.subst(first index,length) 
+//3.subst(first index,length) 
 let name2 ="Good Morning kanha"
 let output2=name2.substr(3,3)
 console.log(output2);
+
+//4.toUpperCase()
+let str="degweeiuheskud"
+let outputstr=str.toUpperCase()
+console.log(outputstr);
+
+//5.toUpperCase()
+let outputstr1=str.toLowerCase()
+console.log(outputstr1);
+
+//6.Concat() -usemto concat two strings
+let text1 ="hyyyy"
+let text2 ="Good Morning"
+let opconcat=text1.concat(" ",text2)
+console.log(opconcat);
+
+//7.trim()
+
